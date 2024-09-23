@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myquotes/MyQuotes.dart';
+import 'package:myquotes/Splash.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +19,6 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: MyQuotes());
+        home: MySplash());
   }
 }
